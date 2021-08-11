@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/holo_blue_bright"
+    tools:context=".Audio">
+
+    <Button
+        android:id="@+id/bird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bird Sound" />
+
+    <Button
+        android:id="@+id/jungle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jungle Sound"/>
+
+    <Button
+        android:id="@+id/rain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rain Sound"/>
+
+    <Button
+        android:id="@+id/river"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="River Sound"/>
+
+    <Button
+        android:id="@+id/happy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Happy Song"/>
+
+    <Button
+        android:id="@+id/sad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sad Song"/>
+
+</LinearLayout>

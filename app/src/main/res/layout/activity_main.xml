@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ACF1DD"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="504dp"
+        android:onClick="logout"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Audio"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="252dp"
+        android:text="Audio"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <Button
+        android:id="@+id/Visual"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="352dp"
+        android:text="Visual"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <Button
+        android:id="@+id/Kinesthetic"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="464dp"
+        android:text="Kinesthetic"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
